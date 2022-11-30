@@ -1,3 +1,7 @@
+This fork just transforms the lib for esm export ... and removes the easter egg :'-(
+
+---
+
 # [fuzzysort](https://raw.github.com/farzher/fuzzysort/master/fuzzysort.js)
 
 Fast, Tiny, & Good SublimeText-like fuzzy search for JavaScript.

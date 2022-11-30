@@ -20,12 +20,14 @@
     "test-min" : "node test/test.js min",
 
     "//"       : "depends on uglify-js v3.17.4 being installed globally",
-    "minify"   : "uglifyjs fuzzysort.js -o fuzzysort.min.js -m -c --mangle-props keep_quoted --comments /farzher/"
+    "minify"   : "uglifyjs fuzzysort.js -o fuzzysort.min.js -m -c --mangle-props keep_quoted --comments /farzher/",
+    "esmify"   : "./esmify.sh"
   },
 
   "files": [
     "fuzzysort.js",
     "fuzzysort.min.js",
+    "fuzzysort.esm.js",
     "index.d.ts"
   ]
 
